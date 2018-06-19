@@ -1,0 +1,27 @@
+.back {
+   position: absolute;
+   right: 20px;
+   top: 20px;
+}
+
+.links line {
+   stroke: #CECECE;
+   stroke-opacity: 0.6;
+}
+
+.nodes circle {
+   stroke: #fff;
+   stroke-width: 1.5px;
+}
+
+.filter-header {
+   margin-bottom: 10px;
+}
+
+.filter {
+   display: inline-block;
+   margin: 0 8px;
+   color: gray;
+   text-decoration: underline;
+   cursor: pointer;
+}

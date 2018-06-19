@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Force Directed Graph</title>
+   <link rel="stylesheet" href="./fdg.css">
+   <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+   <h1>Force Directed Graph</h1>
+
+   <div class="back">
+      <a href="../index.html">Back</a>
+   </div>
+
+   <!-- Filters -->
+   <div class="filter-header">Filter By Group</div>
+   <div class="filter-container">
+      <div class="filter" id="group1" data-filter-value="1">Group 1</div>
+      <div class="filter" id="group2" data-filter-value="2">Group 2</div>
+      <div class="filter" id="group3" data-filter-value="3">Group 3</div>
+   </div>
+
+   <svg id="vis" width="960" height="600"></svg>
+
+   <script src="./fdg.js"></script>
+   <script src="../filter.js"></script>
+</body>
+</html>
